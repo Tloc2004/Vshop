@@ -253,13 +253,13 @@ const styles = StyleSheet.create({
     },
     abilityContainer: {
         alignItems: "center",
-        margin: 3,  // Giảm khoảng cách giữa các icon
-        width: "18%",  // Mỗi icon chiếm tối đa 18% chiều rộng
-        flexBasis: "18%", // Cung cấp không gian cho icon
+        margin: 3,  
+        width: "18%",  
+        flexBasis: "18%", 
     },
     abilityIcon: {
-        width: 40,   // Giảm kích thước của icon
-        height: 40,  // Giảm kích thước của icon
+        width: 40,  
+        height: 40, 
         resizeMode: "contain",
     },
 
