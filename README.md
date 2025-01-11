@@ -115,7 +115,7 @@ The build process for the development version can take some time, so please be p
 5. **Android public release build**
 - Run command
 ```bash
-expo prebuild
+eas build --platform android
 ```
 
 VShop allows you to check your game Store, Night Market, Profile and more. It runs entirely on your device and securely transmits your credentials to the official Riot Games servers (more information in our <a href="https://docs.vshop.one/security">docs</a>).
