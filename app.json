@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "VShop",
+    "slug": "kona",
+    "version": "3.1.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "vshop",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fa4454"
+    },
+    "ios": {
+      "bundleIdentifier": "dev.vasc.vshop",
+      "buildNumber": "29",
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#fa4454"
+      },
+      "permissions": [
+        "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+      ],
+      "package": "dev.vasc.vshop2",
+      "versionCode": 74
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification-icon.png",
+          "color": "#fa4454"
+        }
+      ],
+      "react-native-background-fetch"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "91470069-28cd-468d-8ee5-0fcdc347ca69"
+      },
+      "router": {
+        "origin": false
+      }
+    },
+    "owner": "kona004"
+  }
+}
