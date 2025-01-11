@@ -249,7 +249,7 @@ const styles = StyleSheet.create({
         marginBottom: 20,
         alignItems: "center",
         width: "100%",
-        marginHorizontal: 2,  // Giảm khoảng cách giữa các icon
+        marginHorizontal: 2, 
     },
     abilityContainer: {
         alignItems: "center",
